@@ -128,10 +128,10 @@ public class Square3x3 {
      * sets to true the cells 1-9 with the same index as the numbers in a given row
      * (if one of the numbers in the given row is not 1-9, sets cell 0 to true)
      * 
-     * @param row    is the given row
-     * @param values is the boolean array
+     * @param row is the given row
+     * @param r   is the boolean array
      */
-    public void whosThereRow(int row, Boolean[] values) {
+    public void whosThereRow(int row, boolean[] r) {
         // if (row < 3) {// row is a valid row
         // for (int i = 0; i < 3; i++) {
         // int num = _s3x3[row][i];

@@ -121,7 +121,7 @@ public class Sudoku {
         Sudoku a = new Sudoku(sq);
 
         System.out.println(a);
-        Boolean[] values = new Boolean[9];
+        boolean[] values = new boolean[9];
         Square3x3 asd = a._sudoku[0][0];
         asd.whosThereRow(1, values);
         // System.out.println("boolean [] row" + row + " check ");
